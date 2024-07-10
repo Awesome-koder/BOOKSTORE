@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"Think & Grow Rich",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":2,
+        "name":"Millionaire Fastlane",
+        "s_description":"A self-help book that ditches slow careers for business strategies to build wealth fast.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":3,
+        "name":"Rich Dad Poor Dad",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":4,
+        "name":"48 Laws Of Power",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":5,
+        "name":"How To Win Friends & Influence People",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":6,
+        "name":"Can't Hurt Me",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"950",
+        "category":"Self-Help",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":7,
+        "name":"Think Straight",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"799",
+        "category":"Self-Help",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":8,
+        "name":"Manifest",
+        "s_description":"A self-help book by Roxie Nafousi that outlines 7 steps to live your best life.",
+        "price":"1000",
+        "category":"Self-Help",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":9,
+        "name":"The Ikigai",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Self-Help",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":10,
+        "name":"Psychology Of Money",
+        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":11,
+        "name":"Eat That Frog",
+        "s_description":"A self-help Psychological book by Brian Tracy that states 21 principles for conquering procrastination.",
+        "price":"1500",
+        "category":"Self-Help",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    },
+    {
+        "id":12,
+        "name":"Think Like A Monk",
+        "s_description":"A self-help book by Jay Shetty that outlines 13 principles for achieving dicipline in life.",
+        "price":"0",
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
+    }
+]

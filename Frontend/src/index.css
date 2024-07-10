@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Baloo 2', cursive;
+}
+.HomeBackground {
+    position: relative;
+    z-index: -1;
+}
+
+.HomeBackground img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    filter: drop-shadow(4px 20px 5px black);
+    clip-path: circle(10% at 90% 0%);
+    transition: clip-path 1s ease-in-out;
+}
+
+
+.HomeBackground.active img {
+    clip-path: circle(100%);
+}
