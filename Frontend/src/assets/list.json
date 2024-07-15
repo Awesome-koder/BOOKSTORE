@@ -26,7 +26,7 @@
     {
         "id":4,
         "name":"48 Laws Of Power",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by Robert Greene, provides strategic principles for gaining & maintaining power in various situations.",
         "price":"0",
         "category":"Free",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -34,7 +34,7 @@
     {
         "id":5,
         "name":"How To Win Friends & Influence People",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by Dale Carnegie, teaches interpersonal skills for success in both personal & professional relations.",
         "price":"0",
         "category":"Free",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -42,7 +42,7 @@
     {
         "id":6,
         "name":"Can't Hurt Me",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by David Goggins shares his journey overcoming adversity through mental toughness and resilience.",
         "price":"950",
         "category":"Self-Help",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -50,7 +50,7 @@
     {
         "id":7,
         "name":"Think Straight",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by Darius Foroux offers practical advice on achieving mental clarity and focused thinking.",
         "price":"799",
         "category":"Self-Help",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -66,7 +66,7 @@
     {
         "id":9,
         "name":"The Ikigai",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by Hector Garcia & Francesc Miralles explores the Japanese concept of finding life's purpose & joy.",
         "price":"0",
         "category":"Self-Help",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -74,7 +74,7 @@
     {
         "id":10,
         "name":"Psychology Of Money",
-        "s_description":"A self-help book by Napoleon Hill that outlines 13 principles for achieving success and wealth.",
+        "s_description":"A book by Morgan Housel explores how behavior affects financial decisions and wealth management.",
         "price":"0",
         "category":"Free",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
@@ -90,7 +90,7 @@
     {
         "id":12,
         "name":"Think Like A Monk",
-        "s_description":"A self-help book by Jay Shetty that outlines 13 principles for achieving dicipline in life.",
+        "s_description":"A book by Jay Shetty, provides guidance on finding peace and purpose through monk principles.",
         "price":"0",
         "category":"Free",
         "image":"https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695387.jpg"
