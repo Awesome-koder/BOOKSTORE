@@ -6,7 +6,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 function Signup() {
-    const location = uselocation()
+    const location = useLocation()
     const navigate = useNavigate()
     const from  = location.state?.from?.pathname || "/";
     const {
@@ -20,24 +20,29 @@ function Signup() {
             email: data.email,
             password: data.password,
         }
-        await axios.post("http://localhost:4001/user/signup",userInfo)
+        const res = await axios.post("http://localhost:4001/user/signup",JSON.stringify(userInfo),{
+             headers: {
+	'Content-Type': 'application/json'
+             }
+        })
         .then((res)=>{
             console.log(res.data);
             if(res.data){
                 toast.success("! Signup Successfull !");
-                Navigate(from ,{replace:true});
+                navigate(from ,{replace:true});
             }
             localStorage.setItem("Users", JSON.stringify(res.data.user));
         }).catch((error)=>{
             if(error.response){
                 toast.error("Error: ",error.response.data.message);
+                //toast.error("Error: ",error);
                 console.log(error);
             }
         });
     };
     return (
         <>
-            <div className='flex w-full h-screen items-center justify-center'>
+            <div className='flex w-full h-screen items-center justify-center dark:bg-cyan-950 dark:text-stone-300'>
                 <div>
                     <div className="w-full px-16 modal-box dark:bg-cyan-950 dark:text-stone-300 outline">
                         <form method="dialog" onSubmit={handleSubmit(onSubmit)}>
@@ -60,7 +65,7 @@ function Signup() {
                             {/* confirm password field  */}
                             <div className='mt-4 space-y-2 '>
                                 <span>Confirm Password: </span> <br />
-                                <input type='password' placeholder='Enter Your Password' {...register("password", { required: true })} className='h-10 w-full grow py-1 bg-gray-200 mb-1 px-3 outline-none rounded-md dark:bg-cyan-900 dark:text-stone-300' required></input><br />
+                                <input type='password' placeholder='Enter Your Password' {...register("cnfPassword", { required: true })} className='h-10 w-full grow py-1 bg-gray-200 mb-1 px-3 outline-none rounded-md dark:bg-cyan-900 dark:text-stone-300' required></input><br />
                             </div>
                             <div>
                                 <p className="w-full justify-center align-center text-center mt-1">already have an account? <button className='text-pink-600 hover:text-pink-800' onClick={() => document.getElementById("my_modal_5").showModal()}>login now</button><Login /></p><br />

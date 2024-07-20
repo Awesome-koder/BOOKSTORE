@@ -14,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </AuthProvider>
   </BrowserRouter>
 )
-// setTimeout(() => {
-//   const HomeBackground = document.querySelector('.HomeBackground');
-// }, 200);
+setTimeout(() => {
+  const HomeBackground = document.querySelector('.HomeBackground');
+  HomeBackground.classList.add("active");
+}, 200);
